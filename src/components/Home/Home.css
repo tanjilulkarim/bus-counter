@@ -1,0 +1,36 @@
+.background {
+    background: url(../../img/bug-background.jpg);
+    background-size: 100%;
+    height: 100vh;
+    background-position: center;
+    z-index: -1;
+    margin-top: -1px;
+    backdrop-filter: url();
+  }
+  .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+  }
+  .container1 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-form {
+    width: 600px;
+    background-color: #4536538f;
+    height: auto;
+    box-shadow: rgb(0 0 0 / 50%) 0px 5px 15px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.trip{
+  text-decoration: none;
+  border-radius: 5px;
+}
+.my-btn{
+    background-color: #F0A500;
+    color: grey;
+    width: 100%;
+}
