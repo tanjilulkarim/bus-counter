@@ -16,7 +16,7 @@ const Home = () => {
 
 
 
-              <select name="" id="" className="trip mb-5 ml-2 p-2 " placeholder="date" >
+              <select name="" id="" className="trip mb-5 ml-2 " placeholder="date" >
 
                 <option className="text-primary d-none" placeholder="trip" value="your favorite trip">Your favorite trip</option>
                 <option value="">Shylet to Kolkata</option>

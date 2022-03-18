@@ -26,6 +26,7 @@
     padding: 20px;
 }
 .trip{
+  padding: 10px 13px;
   text-decoration: none;
   border-radius: 5px;
 }
@@ -33,4 +34,15 @@
     background-color: #F0A500;
     color: grey;
     width: 100%;
+}
+
+@media only screen and (max-width:687px) {
+  .trip{
+    padding: 10px 92px;
+  }
+}
+@media only screen and (min-width:688px) and (max-width:991px) {
+  .trip, .form-control{
+    padding: 5px 50px;
+  }
 }
